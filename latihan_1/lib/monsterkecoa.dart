@@ -1,6 +1,6 @@
 import 'package:latihan_1/monster.dart';
 
-class monsterkecoa extends monster {
+class Monsterkecoa extends Monster {
   String fly()=> "syuuung...";
 
 }

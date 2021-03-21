@@ -1,5 +1,5 @@
 import 'package:latihan_1/monster.dart';
 
-class monsteruburubur extends monster{
+class Monsteruburubur extends Monster{
   String swim() => "woosh.. woosh..";
 }

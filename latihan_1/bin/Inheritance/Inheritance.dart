@@ -5,18 +5,18 @@ import 'package:latihan_1/monsterkecoa.dart';
 import 'package:latihan_1/monsteruburubur.dart';
 
 main(List<String> arguments)async {
-  hero h = hero();
-  monster m = monsteruburubur();
-  monsteruburubur u = monsteruburubur();
-  List<monster> monsters = [];
+  Hero h = Hero();
+  Monster m = Monsteruburubur();
+  Monsteruburubur u = Monsteruburubur();
+  List<Monster> Monsters = [];
 
-  monsters.add(monsteruburubur());
-  monsters.add(monsterkecoa());
-  monsters.add(monsteruburubur());
+  Monsters.add(Monsteruburubur());
+  Monsters.add(Monsterkecoa());
+  Monsters.add(Monsteruburubur());
 
   
- for (monster m in monsters){
-if (m is monsteruburubur){
+ for (Monster m in Monsters){
+if (m is Monsteruburubur){
    print(m.swim());
    }
  }
